@@ -1,0 +1,39 @@
+/*tytul i tekst*/
+
+.onas_header {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.onas_header .onas_content_header {
+	max-width: 1500px;
+	text-align: justify;
+}
+
+.onas_header .onas_content_header h2 {
+	font-size: 3em;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.onas_header .onas_content_header p {
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+/*grafika*/
+
+.grafika {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grafika img {
+	width: 100%;
+	max-height: auto;
+	max-width: 800px;
+	margin: 50px 50%;
+	object-fit: cover;
+}
